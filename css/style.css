@@ -497,7 +497,7 @@
 }
 
 .categories .categories-item .categories-item-inner:hover {
-    box-shadow: 0 0 50px rgba(234, 0, 30, .3);
+    box-shadow: 0 0 50px rgba(8, 87, 153, 0.3);
 }
 
 .categories .categories-item-inner .categories-img {
