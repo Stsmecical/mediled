@@ -392,7 +392,8 @@
 
 /*** Fact Counter Start ***/
 .counter {
-    background: linear-gradient(rgba(0, 12, 33, 0.9), rgba(31, 46, 78, 0.9)), url(../img/fact-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    /* , url(../img/fact-bg.jpg) */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -550,10 +551,22 @@
 
 /*** Process Start ***/
 .steps {
-    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/bg-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    /* , url(../img/bg-1.jpg) */
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.container-fluid video {
+    position: fixed;
+    bottom: 0;
+    z-index: -100;
+    top: 0;
+}
+
+.container-fluid.steps.py-5 {
+    padding-left: 0;
+    padding-right: 0;
 }
 
 
